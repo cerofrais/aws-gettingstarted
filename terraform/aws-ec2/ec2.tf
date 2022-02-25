@@ -4,4 +4,14 @@ resource "aws_instance" "test_ec2_terraform" {
   tags={
       ENV = "EC2_terraform_test"
   }
+
+user_data = <<-EOF
+            #!/bin/bash
+            yum update -y
+            yum install -y httpd
+            systmctl start httpd.service
+            systemctl enable httpd.service
+            echo "Hi this is $(hostname -f)" > /var/www/html/index.html
+            EOF
+
 }
