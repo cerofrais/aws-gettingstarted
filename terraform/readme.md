@@ -15,12 +15,14 @@ https://www.terraform.io/downloads
 
 3. `terraform refresh` --> to refresh and update the terraform state
 
-4. `terraform apply` --> to execute the plan
+4. `terraform show` --> to show current state
+
+5. `terraform apply` --> to execute the plan
     Apply also supprts the variable arguments
 
     You can do `terraform apply --auto-approve` to skip the interactive prompt
 
-5. `terrafrom destroy` --> to delete the created resource.
+6. `terrafrom destroy` --> to delete the created resource.
     
     You can do `terraform destory --auto-approve` to skip the interactive prompt
 

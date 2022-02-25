@@ -10,3 +10,11 @@ personal repo to maintain aws notes and experiments
 In case you get an error ( WARNING: UNPROTECTED PRIVATE KEY FILE!   ) , Make sure **only you** have full control permissions of the pem file.
 
 `chmod 400 ec2_keypair.pem`
+
+
+
+EC2 --> elastic computercloud
+
+s3  --> storage bucket
+
+EIP --> elastic ip
