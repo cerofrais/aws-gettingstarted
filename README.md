@@ -17,4 +17,4 @@ EC2 --> elastic computercloud
 
 s3  --> storage bucket
 
-EIP --> elastic ip
+EIP --> elastic ip - fixed ip that can be attached to ec2 instance
