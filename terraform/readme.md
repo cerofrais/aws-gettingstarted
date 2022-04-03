@@ -25,5 +25,7 @@ https://www.terraform.io/downloads
 6. `terrafrom destroy` --> to delete the created resource.
     
     You can do `terraform destory --auto-approve` to skip the interactive prompt
+    
+7. `terraform import`. --> to import the state of an instance created manually(or without using terraform) to tf state
 
 
