@@ -27,5 +27,7 @@ https://www.terraform.io/downloads
     You can do `terraform destory --auto-approve` to skip the interactive prompt
     
 7. `terraform import`. --> to import the state of an instance created manually(or without using terraform) to tf state
-
+    before importing you create a dummy instance with null values, make sure all the default variables to required are present. and to user the command,
+    `terraform import aws_instance.instance_name` 
+    --> do a `terraform plan` to get the details of the instance created in terminal for future use.
 
